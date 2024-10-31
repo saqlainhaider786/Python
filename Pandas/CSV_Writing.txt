@@ -1,0 +1,13 @@
+=============================		CSV Writing Imp Methods		=============================
+
+  i)pd.read_csv("file") - for all rows and columns.
+ ii)pd.read_csv("file",nrows=no_of_rows) - for getting specific no of rows.
+iii)pd.read_csv("file",usecols=["col(s)_name"]) - for getting on specific column(s).
+ iv)pd.read_csv("file",skiprows=[row_no(s)]) - used to skip specific row.
+  v)pd.read_csv("file",index_col="col_name") - used to make specific col as index
+ vi)data.iloc[rowStart:rowEnd,colStart:colEnd] - used to get specific row & col from existing data by
+    							set using indexes.
+	(iloc stands for index location)
+
+ vi)data.loc[rowStart:rowEnd,("col(s)_name")] - used to get specific row by using indexes & col by 
+							name from existing data set.
